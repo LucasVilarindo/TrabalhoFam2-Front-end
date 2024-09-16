@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.section-fundo {
+    background-image: url('./assets/fundo4.webp');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-fundo h1{
+    font-size: 130px;
+}
+
+.section-buttom{
+background-color: black;
+width: 100px;
+height: 38px;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+
+
+.section-buttom:hover{
+    background-color: white;
+    color: black;
+}
